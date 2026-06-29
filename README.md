@@ -111,8 +111,3 @@ This project demonstrates how cloud technologies can transform a fragmented manu
 3. Documents uploaded to Azure Blob Storage
 4. Reviewers update status and add comments
 5. Final decision recorded in system
-
-
-- Power BI dashboard for real-time analytics
-- Power Automate for email notifications
-- Web-based front end for applicants
