@@ -111,3 +111,12 @@ This project demonstrates how cloud technologies can transform a fragmented manu
 3. Documents uploaded to Azure Blob Storage
 4. Reviewers update status and add comments
 5. Final decision recorded in system
+
+## Project Outcomes
+
+- Designed a normalized relational database for grant application management.
+- Integrated Azure Blob Storage for cloud-based document storage.
+- Simulated an end-to-end grant review workflow from submission through approval.
+- Demonstrated how cloud technologies improve visibility, collaboration, and auditability compared to manual processes.
+
+
