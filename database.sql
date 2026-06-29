@@ -106,7 +106,10 @@ SET Status = 'Approved'
 WHERE ApplicationID = 1;
 
 -- =========================================
--- 5. FINAL DASHBOARD QUERY (FULL SYSTEM VIEW)
+-- 5. DASHBOARD REPORTING QUERY
+-- Demonstrates how application, document,
+-- and review information can be combined
+-- into a single reporting view.
 -- =========================================
 
 SELECT 
