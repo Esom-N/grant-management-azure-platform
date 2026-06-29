@@ -71,15 +71,37 @@ VALUES ('John Doe', 'Helping Hands Org', 'john@email.com');
 
 -- Insert sample grant application
 INSERT INTO GrantApplications (ApplicantID, Program, SubmissionDate, Status)
-VALUES (1, 'Community Development Grant', GETDATE(), 'Submitted');
+VALUES (
+    1,
+    'Community Development Grant',
+    GETDATE(),
+    'Submitted'
+);
 
--- Insert sample document (stored in Azure Blob Storage)
+-- Insert supporting documents stored in Azure Blob Storage
+
 INSERT INTO Documents (ApplicationID, FileName, UploadDate, BlobURL)
 VALUES (
     1,
     'BusinessPlan.pdf',
     GETDATE(),
     'https://grantblobstorage482910.blob.core.windows.net/applications/BusinessPlan.pdf'
+);
+
+INSERT INTO Documents (ApplicationID, FileName, UploadDate, BlobURL)
+VALUES (
+    1,
+    'Budget.xlsx',
+    GETDATE(),
+    'https://grantblobstorage482910.blob.core.windows.net/applications/Budget.xlsx'
+);
+
+INSERT INTO Documents (ApplicationID, FileName, UploadDate, BlobURL)
+VALUES (
+    1,
+    'TaxForm.pdf',
+    GETDATE(),
+    'https://grantblobstorage482910.blob.core.windows.net/applications/TaxForm.pdf'
 );
 
 -- Insert review history entries (simulating workflow progression)
