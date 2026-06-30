@@ -1,4 +1,4 @@
-# Community Grant & Funding Management Platform (Azure Cloud Project)
+# Community Grant & Funding Management Project (Azure Cloud Project)
 
 A cloud-based grant management platform built with Azure SQL Database and Azure Blob Storage to demonstrate cloud data management, document storage, and business process modernization for a government/nonprofit grant workflow.
 
